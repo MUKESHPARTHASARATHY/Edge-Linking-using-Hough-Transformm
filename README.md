@@ -30,7 +30,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('chess.jpg')
+image = cv2.imread('VJK.jpg')
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 edges = cv2.Canny(gray_image, 50, 150, apertureSize=3)
 
@@ -72,19 +72,24 @@ plt.axis('off')
 
 ### Input image and grayscale image
 
-![image](https://github.com/user-attachments/assets/2c836a68-4960-40b5-bba6-95fb608cc9a8)
+![WhatsApp Image 2024-10-16 at 16 11 25_fe2d69a8](https://github.com/user-attachments/assets/60e846d0-a899-47e9-8595-7df03b530324)
 
-![image](https://github.com/user-attachments/assets/6a9066fa-9423-4d3e-ab65-0b7789a01d87)
+![WhatsApp Image 2024-10-16 at 16 10 31_4ad8333f](https://github.com/user-attachments/assets/69864e95-1576-40c9-94e9-b9e25086eaea)
 
 
 
 ### Canny Edge detector output
-![image](https://github.com/user-attachments/assets/479b38ec-73f8-4fa0-9b72-df5b8dfdec14)
+
+![WhatsApp Image 2024-10-16 at 16 10 37_53082bd6](https://github.com/user-attachments/assets/bd12d3e5-8fd6-495e-9eb3-7c2e1c686d1e)
+
 
 
 
 ### Display the result of Hough transform
-![image](https://github.com/user-attachments/assets/acc9200a-71a9-45b8-aa67-30716aa7462e)
+
+![WhatsApp Image 2024-10-16 at 16 10 42_20dc7ef8](https://github.com/user-attachments/assets/6b27dead-af5a-4ca0-857d-4959e4dcc80f)
+
+
 
 
 ## Result:
